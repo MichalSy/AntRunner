@@ -53,8 +53,8 @@
 
 
 
-            <Grid Margin="5,0,5,0" x:Name="LoadAntArea">
-                <StackPanel Orientation="Vertical">
+            <Grid Margin="5,0,5,0">
+            <StackPanel Orientation="Vertical" x:Name="LoadAntArea">
                     <local:LoadAntControl Players="{Binding Players}" />
                     <local:LoadAntControl Players="{Binding Players}" />
                     <local:LoadAntControl Players="{Binding Players}" />
